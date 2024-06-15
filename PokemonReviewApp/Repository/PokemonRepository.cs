@@ -1,0 +1,22 @@
+﻿using PokemonReviewApp.Data;
+using PokemonReviewApp.Models;
+using PokemonReviewApp.Interfaces;
+
+namespace PokemonReviewApp.Repository 
+{
+    public class PokemonRepository : IPokemonRepository
+    {
+        private readonly DataContext _context;
+        public PokemonRepository(DataContext context)
+        {
+            _context = context;
+        }
+
+        public ICollection<Pokemon> GetPokemons()
+        {
+            return _context.Pokemon.OrderBy(p => p.Id).ToList();
+            //here we are returning a list of pokemons ordered by their id
+        }
+        //ICollection is an interface that represents a collection of objects that can be individually accessed by index
+    }
+}
