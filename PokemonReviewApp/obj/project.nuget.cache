@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jRnXrzWYUlH1bzZk+cDW79cAyE42MHwV6yIfYKOvexwqihPrxwoRChf2r0E4lJtVPTgznHgaHpF2ODWHIl3rjg==",
+  "dgSpecHash": "IOXwVjEnsdQ9lpdC4+ur/+lLrUAhdLbidJqzhI9h2MGL5/XuEABJegYuH/d8l1+a+cINijGwscl+qW6oRjT+xg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp\\PokemonReviewApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Siddh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Siddh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Siddh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Siddh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
