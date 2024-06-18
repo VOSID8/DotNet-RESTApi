@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
+    "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp\\PokemonReviewApp.csproj": {
+    "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "projectUniqueName": "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp.csproj",
         "projectName": "PokemonReviewApp",
-        "projectPath": "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "projectPath": "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp.csproj",
         "packagesPath": "C:\\Users\\Siddh\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DotNet-RESTApi\\PokemonReviewApp\\obj\\",
+        "outputPath": "C:\\Projects\\DotNet-RESTApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Siddh\\AppData\\Roaming\\NuGet\\NuGet.Config",

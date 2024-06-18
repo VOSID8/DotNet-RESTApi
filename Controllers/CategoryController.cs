@@ -24,9 +24,6 @@ namespace PokemonReviewApp.Controllers
         public IActionResult GetCategories()
         {
             var categories = _mapper.Map<List<CategoryDto>>(_categoryRepository.GetCategories());
-            //here we are getting a list of categories
-            //automappers maps the list of categories to a list of categorydto
-            //helps to hide the implementation details of the model
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -43,8 +40,6 @@ namespace PokemonReviewApp.Controllers
                 return NotFound();
 
             var category = _mapper.Map<CategoryDto>(_categoryRepository.GetCategory(categoryId));
-            //here we are getting a category by id
-            //DTO is used to hide the implementation details of the model
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
