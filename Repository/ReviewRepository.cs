@@ -16,6 +16,21 @@ namespace PokemonReviewApp.Repository
             _mapper = mapper;
         }
 
+        public bool CreateReview(Review reviewMap)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool DeleteReview(Review reviewToDelete)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool DeleteReviews(List<Review> reviewsToDelete)
+        {
+            throw new NotImplementedException();
+        }
+
         public Review GetReview(int reviewId)
         {
             return _context.Reviews.Where(r => r.Id == reviewId).FirstOrDefault();
@@ -26,6 +41,11 @@ namespace PokemonReviewApp.Repository
             return _context.Reviews.ToList();
         }
 
+        public object GetReviewsOfAPokemon(int pokeId)
+        {
+            throw new NotImplementedException();
+        }
+
         public ICollection<Review> GetReviewsOfPokemon(int pokeId)
         {
             return _context.Reviews.Where(r => r.Pokemon.Id == pokeId).ToList();
@@ -34,6 +54,11 @@ namespace PokemonReviewApp.Repository
         public bool ReviewExists(int reviewId)
         {
             return _context.Reviews.Any(r => r.Id == reviewId);
+        }
+
+        public bool UpdateReview(Review reviewMap)
+        {
+            throw new NotImplementedException();
         }
     }
 }

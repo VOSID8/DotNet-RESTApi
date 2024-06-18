@@ -3,6 +3,7 @@
     "",
     "\\Controllers",
     "\\Dto",
+    "\\Helper",
     "\\Interfaces",
     "\\Repository"
   ],
